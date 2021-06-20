@@ -4,15 +4,15 @@ import com.qa.Utils.BaseClass;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class Initialize {
+public class Initialize extends BaseClass {
 
     @Before
     public void start(){
-        BaseClass.setup();
+        setup();
     }
 
     @After
     public void end(){
-        BaseClass.close();
+        //close();
     }
 }

@@ -1,3 +1,4 @@
+@regression
 Feature: Login
 
   Scenario: User is able to login into application
